@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_home"
+    tools:context=".PatientRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/covid_apply"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:text="Apply for Covid-19 Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_name"
+                android:hint="Enter Patient Name"
+                android:drawableStart="@drawable/ic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_address"
+                android:hint="Enter Patient Address"
+                android:drawableStart="@drawable/ic_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_age"
+                android:hint="Enter Patient Age"
+                android:drawableStart="@drawable/ic_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_nid"
+                android:hint="Enter Patient NID Number"
+                android:drawableStart="@drawable/ic_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_transaction_method"
+                android:hint="Enter Transaction Method"
+                android:drawableStart="@drawable/ic_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/applicant_transaction_id"
+                android:hint="Enter Transaction ID"
+                android:drawableStart="@drawable/ic_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/submitApplycation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Covid-19 Test"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+        <TextView
+            android:id="@+id/backToLoginPatient"
+            android:text="@string/patient_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+</ScrollView>

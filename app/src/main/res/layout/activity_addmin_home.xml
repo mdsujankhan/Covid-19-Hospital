@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_home"
+    tools:context=".DoctorRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:src="@drawable/images_admin"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:text="Admin Home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/viewReportGraphicallyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Income Graphically"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+        <Button
+            android:id="@+id/viewReportMonthlyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Income Monthly"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+        <Button
+            android:id="@+id/viewReportPercentageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Income Percentage"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+        <Button
+            android:id="@+id/viewReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Income Report"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+        <Button
+            android:id="@+id/registrationByAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Doctor/Patient"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+
+        <TextView
+            android:id="@+id/backToLoginaAdmin"
+            android:text="Back To Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_home"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

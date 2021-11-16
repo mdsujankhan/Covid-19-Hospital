@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_home"
+    tools:context=".PatientRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/patient"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/patient_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_name"
+                android:hint="Enter Patient Name"
+                android:drawableStart="@drawable/ic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_address"
+                android:hint="Enter Patient Address"
+                android:drawableStart="@drawable/ic_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_age"
+                android:hint="Enter Patient Age"
+                android:drawableStart="@drawable/ic_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_phone"
+                android:hint="Enter Patient Phone Number"
+                android:drawableStart="@drawable/ic_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_email"
+                android:hint="Enter Patient Email"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#000"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/patient_password"
+                android:hint="Enter Patient Password"
+                android:drawableStart="@drawable/ic_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textColorHint="#000"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/registrationPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient Registration"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+        <TextView
+            android:id="@+id/backToLogin"
+            android:text="@string/login_patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+</ScrollView>

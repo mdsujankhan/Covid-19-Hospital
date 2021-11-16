@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_home"
+    tools:context=".DoctorRegistrationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:src="@drawable/doctor_profile"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:text="Appointment Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/viewID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/fromID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:layout_alignParentTop="true"
+                android:text="ID: "
+                android:textSize="20sp"
+                android:textColor="#000fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showAppointmentID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:layout_alignParentTop="true"
+                android:text="Name: "
+                android:textSize="20sp"
+                android:textColor="#000fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showAppointmentNAME"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/view22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/from2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:layout_alignParentTop="true"
+                android:text="Gender: "
+                android:textSize="20sp"
+                android:textColor="#000fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showAppointmentGENDER"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/view222"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/from22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:layout_alignParentTop="true"
+                android:text="Age: "
+                android:textSize="20sp"
+                android:textColor="#000fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showAppointmentAGE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:layout_alignParentTop="true"
+                android:text="Apply Date: "
+                android:textSize="20sp"
+                android:textColor="#000fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/showAppointmentCONTACT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".60"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/approveAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approve Appointment"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+        <Button
+            android:id="@+id/deleteAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regect Appointment"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/buttons_background"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

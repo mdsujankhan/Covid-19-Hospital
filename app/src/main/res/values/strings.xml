@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Covid-19 Hospital</string>
+    <string name="apply">Apply</string>
+    <string name="login_patient">Patient Login</string>
+    <string name="login_admin">Admin Login</string>
+    <string name="pathology_login">Pathologist Login</string>
+    <string name="welcome_mesage">Welcome Back! How Are You, Today?</string>
+    <string name="patient_registration">Patient Registration</string>
+    <string name="doctor_registration">Doctor Registration</string>
+    <string name="doctor_login">Doctor Login</string>
+    <string name="address">Azimpur Rd, Azimpur, Dhaka-1205</string>
+    <string name="receptionist_login">Receptionist Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="pathologist_login">Pathologist Login</string>
+    <string name="apply_covid_19_test">Apply For Covid-19 Test</string>
+    <string name="patient_home">Patient Home</string>
+    <string name="new_application_button">All new Covid-19 test Applications</string>
+
+    <string-array name="timeSchedule">
+        <item>Select one Option</item>
+        <item>Morning(8 AM - 2 PM)</item>
+        <item>Evening(4 PM - 10 PM)</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Select one Option</item>
+        <item>Medicine</item>
+        <item>Surgery</item>
+        <item>Dental</item>
+        <item>ENT</item>
+        <item>Mother and Pediatric</item>
+        <item>Pathology</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/drawable/buttons_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_addmin_home.xml" value="0.209375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_admin_login.xml" value="0.124609375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_approve_application.xml" value="0.1" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_contact_input.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_contact_input_for_prescription.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_covid_report.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_covid_test_application.xml" value="0.1" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_details_appointment.xml" value="0.119921875" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_doctor_appoint.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_doctor_home.xml" value="0.1" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_doctor_login.xml" value="0.1140625" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_doctor_registration.xml" value="0.115625" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_income_report.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_income_report_monthly.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_input_nidactivity.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_invoice.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_pathologist_home.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_pathologist_login.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_pathologist_registration.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_patient_home.xml" value="0.103515625" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_patient_registration.xml" value="0.16510416666666666" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_percentage_income.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_pie_chart_report.xml" value="0.146484375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_prescription.xml" value="0.15703125" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_registration.xml" value="0.209375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_show_all_applicants.xml" value="0.13359375" />
+        <entry key="..\:/IsDB-BISEW/#08Android/Covid-19 Hospital/app/src/main/res/layout/activity_show_all_appointments.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
